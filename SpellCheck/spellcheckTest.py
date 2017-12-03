@@ -2,15 +2,16 @@
 
 import enchant
 import string
+import os
 
 # spell checker
 d = enchant.Dict("sv")
 
 # creating and opening fil
-fileName = "translations.csv"
+fileName = os.getcwd() + "/translations.csv"
 fp = open(fileName, 'r')
 
-outFileName = "outFile.csv"
+outFileName = os.getcwd() + "/outFile.csv"
 outFile = open(outFileName, 'w')
 
 # list of non-letter symbols
