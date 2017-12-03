@@ -1,0 +1,6 @@
+SpellCheck/translations.csv
+SpellCheck/outFile.csv
+SpellCheck/2_high_priority_content.xliff
+SpellCheck/.DS_Store
+.DS_Store
+SpellCheck/patch_readline_issue_18458.sh
